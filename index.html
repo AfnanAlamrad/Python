@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--meta def-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--title-->
+    <title>Python programming language</title>
+
+    <!--Link Custom Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet"> 
+    
+    <!--Link Bootstrp Stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+
+
+
+  <body>
+    <!--Section for Background-Starts-->
+    <section class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+    </section>
+        
+
+
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg" id="nav-custom">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a id="custom-a" class="nav-link active" aria-current="page" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a id="custom-a" class="nav-link" href="#">Downloads</a>
+                </li>
+
+                <li class="nav-item">
+                    <a id="custom-a" class="nav-link" href="#">Documentation</a>
+                </li>
+
+                <li class="nav-item">
+                    <a id="custom-a" class="nav-link" href="#">Community</a>
+                </li>
+
+                <li class="nav-item">
+                    <a id="custom-a" class="nav-link" href="#">News</a>
+                </li>
+
+                <li class="nav-item">
+                    <a id="custom-a" class="nav-link" href="#">Events</a>
+                </li>
+            </ul>
+        </div>
+            <form class="d-flex" role="search">
+                <input id="inp-nav" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button id="btn-nav" class="btn btn-outline-success" type="submit">Search</button>
+            </form> 
+        </div>
+    </nav>
+    <!--End of Nav Bar-->
+
+
+    <!--Title-->
+    <p id="title">
+        PYTHON PROGRAMMING LANGUAGE
+    </p>
+
+    <p id="zen">
+        “There should be one, and preferably only one obvious way to do it.” 
+        <br>
+        — from Zen of Python
+    </p>
+
+    <!--Content-->
+
+        <!--What is Python?-->
+        <div class="row" id="content">
+            <div class="col-4">
+                <img id="py-img" src="resources/python.png" alt="Python">
+            </div>
+            <div class="col-6">
+            <span id="what-py">WHAT'S PYTHON?</span>
+            <br>
+            Python is a growing programming language that is typically used in automation,
+            data analysis, and web development. It was created in the Netherlands during the
+            late 1980s by Guido van Rossum. It first appeared February 20th 1991 as Python
+            0.9.0., but now, in 2021, Python is in version 3.0. 
+            </div>
+        </div>
+
+
+        <!--CHARACTERISTICS OF PYTHON-->
+        <p id="char">CHARACTERISTICS OF PYTHON</p>
+
+        <!--Row 1-->
+        <!--Card1-->
+        <div class="container" id="container-card">
+            <div class="card" style="width: 18rem;" id="card-custom">
+              <svg id="card-img" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-check-all" viewBox="0 0 16 16">
+                <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
+              </svg>                    
+            <div class="card-body">
+              <p id="sub-title">Easy Language</p> <br>
+                <p class="card-text" id="char-item">
+                  It is easy to learn, easy to understand, 
+                  easy to write because of its simple syntax.
+                </p>
+            </div>
+            </div>
+    
+            <!--Card2-->
+            <div class="card" style="width: 18rem;" id="card-custom">
+              <svg id="card-img2" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-box-arrow-in-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2H7v-1h5a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM0 11.85h1.6c.289 0 .533.06.732.179.201.117.355.276.46.477.105.201.158.427.158.677 0 .25-.054.476-.16.677-.106.199-.26.357-.464.474a1.452 1.452 0 0 1-.732.173H.79v1.342H0V11.85Zm2.06 1.714a.795.795 0 0 0 .085-.381c0-.227-.062-.4-.185-.521-.123-.122-.294-.182-.513-.182H.788v1.406h.66a.794.794 0 0 0 .374-.082.574.574 0 0 0 .238-.24Zm2.963.75v1.535H4.23v-1.52L2.89 11.85h.876l.853 1.696h.032l.856-1.696h.855l-1.339 2.464Z"/>
+              </svg>                    
+            <div class="card-body">
+              <p id="sub-title">Object-Oriented</p> <br>
+                <p class="card-text" id="char-item">
+                  Python is object-oriented but supports both functional and
+                  object-oriented programming.
+                </p>
+            </div>
+            </div>
+    
+            <!--Card3-->
+            <div class="card" style="width: 18rem;" id="card-custom">
+              <svg id="card-img" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-box-arrow-in-up" viewBox="0 0 16 16">
+                <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>              
+              </svg>                    
+            <div class="card-body">
+              <p id="sub-title">Open-Source</p> <br>
+                <p class="card-text" id="char-item">
+                  Python is open-source,
+                  It is free and its source code is freely available to the public. 
+                </p>
+            </div>
+            </div>
+        </div>
+
+
+        <!--Row 2-->
+        <!--Card4-->
+        <div class="container" id="container-card2">
+          <div class="card" style="width: 18rem;" id="card-custom">
+            <svg id="card-img2" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-box-arrow-in-up" viewBox="0 0 16 16">
+              <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z"/>
+            </svg>                    
+          <div class="card-body">
+            <p id="sub-title">Large Standard Library</p> <br>
+              <p class="card-text" id="char-item">
+                The standard library is large and has many packages and modules with
+                many functionality.
+              </p>
+          </div>
+          </div>
+  
+          <!--Card5-->
+          <div class="card" style="width: 18rem;" id="card-custom">
+            <svg id="card-img" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-box-arrow-in-up" viewBox="0 0 16 16">
+              <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+              <path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm13 1a.5.5 0 0 1 .5.5v6l-3.775-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12v.54A.505.505 0 0 1 1 12.5v-9a.5.5 0 0 1 .5-.5h13z"/>
+            </svg>                    
+          <div class="card-body">
+            <p id="sub-title">GUI Support</p> <br>
+              <p class="card-text" id="char-item">
+                You can use Python to create GUI. 
+                You can use tkinter, PyQt, wxPython or Pyside for this.
+              </p>
+          </div>
+          </div>
+  
+          <!--Card6-->
+          <div class="card" style="width: 18rem;" id="card-custom">
+            <svg id="card-img2" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-box-arrow-in-up" viewBox="0 0 16 16">
+              <path d="M7.462 0H0v7.19h7.462V0zM16 0H8.538v7.19H16V0zM7.462 8.211H0V16h7.462V8.211zm8.538 0H8.538V16H16V8.211z"/>
+            </svg>                   
+          <div class="card-body">
+            <p id="sub-title">Platform-Independent</p> <br>
+              <p class="card-text" id="char-item">
+                Python is platform-independent. It will run on 
+                different platforms like Windows, Mac and Linux. 
+              </p>
+          </div>
+          </div>
+      </div>
+
+    <!-- Footer-->
+    <footer class="page-footer font-small pt-4" id="custom-foot">
+
+    <!-- Footer Elements -->
+    <div class="container">
+      <!--row-->
+      <div class="row">
+          <form class="d-flex justify-content-center" role="search">
+            <input id="inp-foot" class="form-control me-2" type="search" placeholder="E-mail" aria-label="Search">
+            <button id="btn-foot" class="btn btn-outline-success" type="submit">Login</button>
+        </form> 
+      </div>
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2022 Copyright:
+      <a href="/"> Python.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+
+
+
+    
+
+
+
+      
+
+          
+        
+
+
+
+
+  </body>
+</html>
